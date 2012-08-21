@@ -29,7 +29,7 @@ int xunlei()
      {
           XLUninitDownloadEngine();
           printf("创建新任务失败,错误代码：%d.\n", dwRet);
-		  system("ping 127.0 -n 5 > NUL");
+		  system("ping 127.0 -n 4 > NUL");
           return 1;
      }
 
